@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1f1f1e;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px 0 49px;
+}
+.header__phone {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 130%;
+}
+.header__phone-number {
+  font-weight: 400;
+  margin-left: 19px;
+  padding: 13px 31px;
+  background-color: #886239;
+  border-radius: 22px;
+}
+.menu {
+  width: 100%;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-top: 15px;
+  padding: 27px 0 24px;
+  color: #fff;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__title {
+  font-family: "PT Serif", serif;
+}
