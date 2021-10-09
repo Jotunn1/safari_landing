@@ -260,3 +260,128 @@ a {
 .slick-prev {
   right: 60px;
 }
+.tour {
+  padding: 100px 0;
+}
+.tour__title {
+  margin-bottom: 77px;
+}
+.tour__inner {
+  column-count: 2;
+  column-gap: 46px;
+  border-bottom: 1px solid #d9d9de;
+  margin-bottom: 44px;
+  padding-bottom: 50px;
+}
+.tour__text {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 140%;
+}
+.tour__text span {
+  font-weight: 700;
+}
+.tour__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tour__info-item {
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 60px;
+  font-family: "PT Serif", serif;
+  color: #886239;
+  text-align: center;
+}
+.tour__info-text {
+  line-height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+  font-weight: 500;
+}
+.booking {
+  background: #eaeaea;
+  padding: 75px 0;
+}
+.booking__title {
+  margin-bottom: 43px;
+}
+.booking__form {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 830px;
+  margin: 0 auto;
+}
+.booking__input {
+  width: 256px;
+  height: 44px;
+  border: 1px solid #d9d9de;
+  background-color: #fff;
+  padding: 11px 14px 12px;
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+.booking__input::placeholder,
+.booking__area::placeholder {
+  font-size: 16px;
+  color: #c4c4c4;
+  font-family: "Roboto", sans-serif;
+}
+.booking__area {
+  padding: 14px 14px 77px;
+  width: 100%;
+  border: 1px solid #d9d9de;
+  background-color: #fff;
+  resize: none;
+  height: 112px;
+  margin-bottom: 67px;
+}
+.booking__btn {
+  background-color: #886239;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  line-height: 21px;
+  padding: 19px 65px;
+  cursor: pointer;
+}
+.booking__label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 130%;
+  text-decoration: underline;
+}
+.booking__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-left: 45px;
+}
+
+.booking__checkbox-style {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #c4c4c4;
+  border-radius: 2px;
+  position: absolute;
+  margin-left: -45px;
+}
+.booking__checkbox:checked + .booking__checkbox-style::before {
+  width: 16px;
+  content: " ";
+  position: absolute;
+  height: 16px;
+  background-color: #c4c4c4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
